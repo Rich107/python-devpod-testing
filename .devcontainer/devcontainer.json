@@ -35,7 +35,7 @@
 		"heroku": "apt update && apt install -y gnupg vim nano gnupg && curl https://cli-assets.heroku.com/install-ubuntu.sh | sh"
 	},
 	"features": {
-		"ghcr.io/devcontainers/features/docker-outside-of-docker:1": {},
+		//	"ghcr.io/devcontainers/features/docker-outside-of-docker:1": {},
 		"ghcr.io/devcontainers/features/node:1": {},
 		"ghcr.io/duduribeiro/devcontainer-features/neovim:1": {}
 	},
