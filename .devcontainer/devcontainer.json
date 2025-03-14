@@ -32,14 +32,12 @@
 	// Use 'postCreateCommand' to run commands after the container is created.
 	"postCreateCommand": {
 		"pip install": "pip3 install -r requirements.txt",
-		//"heroku": "apt update && apt install -y gnupg vim nano gnupg && curl https://cli-assets.heroku.com/install-ubuntu.sh | sh"
-		"tools": "apt update && apt install -y gnupg vim nano"
+		"heroku": "apt update && apt install -y vim nano gnupg && curl https://cli-assets.heroku.com/install-ubuntu.sh | sh"
 	},
 	"features": {
 		//	"ghcr.io/devcontainers/features/docker-outside-of-docker:1": {},
 		"ghcr.io/devcontainers/features/node:1": {},
 		"ghcr.io/duduribeiro/devcontainer-features/neovim:1": {},
-		"ghcr.io/devcontainers-contrib/features/heroku-cli:1": {},
 		"ghcr.io/devcontainers-contrib/features/tmux-apt-get:1": {},
 		"ghcr.io/devcontainers-contrib/features/gitmux:1": {}
 	},
